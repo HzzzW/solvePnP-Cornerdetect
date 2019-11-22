@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\Program Files\eigen3;D:\Software\opencv\build\include\opencv2;D:\Software\opencv\build\include\opencv;D:\Software\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Software\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world320d.lib;libamdd.lib;libbtfd.lib;libcamdd.lib;libccolamdd.lib;libcholmodd.lib;libcolamdd.lib;libcxsparsed.lib;libklud.lib;libldld.lib;libspqrd.lib;libumfpackd.lib;suitesparseconfigd.lib;libblas.lib;liblapack.lib;metisd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Program Files\suitesparse-metis-for-windows-1.3.0\build\lib\Debug;D:\Program Files\suitesparse-metis-for-windows-1.3.0\build\install\lib64;D:\Program Files\suitesparse-metis-for-windows-1.3.0\build\install\lib64\lapack_blas_windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Program Files\suitesparse-metis-for-windows-1.3.0\build\install\include;D:\Program Files\suitesparse-metis-for-windows-1.3.0\build\install\include\suitesparse;D:\Program Files\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
