@@ -1,2 +1,1 @@
-# solvePnP-Cornerdetect
 通过二维码和solvePnP算法结合来估计相机的位姿，最后通过图优化对位姿进行优化
