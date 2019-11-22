@@ -1,2 +1,2 @@
 # solvePnP-Cornerdetect
-通过张正为标定法中的角点检测函数和solvePnP算法结合来计算相机的位姿
+通过张正为标定法中的角点检测函数和solvePnP算法结合来估计相机的位姿
